@@ -3,7 +3,7 @@ import express from "express"
 const app = express()
 
 app.get("/shiv", (req, res) => {
-    res.send("hyy")
+    res.send("hello")
 });
 
 app.listen(3000, () => {
